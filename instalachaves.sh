@@ -1,9 +1,6 @@
     #!/usr/bin/env bash
-    ​
     #./crialistaips.sh
-    ​
     senha="senha"
-    ​
     #=================
     for host in $(cat ips.txt); do
         if [ -f "foi/$host.txt" ]; then
